@@ -1,0 +1,22 @@
+{
+  "name": "fileexplore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asma2018/Node-Project1-File-Explorer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asma2018/Node-Project1-File-Explorer/issues"
+  },
+  "homepage": "https://github.com/Asma2018/Node-Project1-File-Explorer#readme"
+}
