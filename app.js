@@ -4,12 +4,12 @@ const http = require('http');
 const respond = require('./lib/respond.js');
 
 //connection settings
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 //Create server
 const server = http.createServer(respond);
 
 //listen to client requests on the specific port, the port should be available
-server.listen(port, () => {
-    console.log(`listening on port: ${port}`);
+server.listen(PORT, () => {
+    console.log(`listening on port: ${PORT}`);
 });
